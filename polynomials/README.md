@@ -73,5 +73,12 @@ function f (x: int): int {
 
 Domain and codomain are defined by notation (interface), while the output (range) depends on the semantics (implementation) of the function.
 
+### Symbols
+
+- ℝ = set of real numbers
+- ℤ = integers
+- ℕ = positive integers (natural numbers)
+- ∈ = assume membership in some set (`q ∈ ℕ` clams that q is a natural number)
+
 ## Existence & Uniqueness
 
