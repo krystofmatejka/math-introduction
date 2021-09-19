@@ -76,9 +76,22 @@ Domain and codomain are defined by notation (interface), while the output (range
 ### Symbols
 
 - ℝ = set of real numbers
+  ℝ² = pairs of real numbers
 - ℤ = integers
 - ℕ = positive integers (natural numbers)
 - ∈ = assume membership in some set (`q ∈ ℕ` clams that q is a natural number)
 
 ## Existence & Uniqueness
+
+Existence proof determines whether the equation has a solution.
+Uniqueness determines whether the equation has one or more solutions.
+
+## Theorem
+
+For any integer n ≥ 0 and any list of n + 1 points (x₁,y₁), (x₂,y₂), ...,(xₙ₊₁,yₙ₊₁) in ℝ² with x₁ < x₂ < ... xₙ₊₁, there
+exists a unique polynomial p(x) of degree at most n such that p(xᵢ) = yᵢ for all i.
+
+**A briefer version:**
+
+There is a unique degree n polynomial passing through a choice of n + 1 points.
 
