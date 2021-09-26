@@ -36,6 +36,8 @@ f(2) = 2 + 0 + 4 * 4 + -1 * 2^3
 f(2) = 10
 ```
 
+![calculation visualisation](calculation-visualisation.svg)
+
 ### Exercise
 
 Determine for each function if is or is not a polynomial.
@@ -95,3 +97,38 @@ exists a unique polynomial p(x) of degree at most n such that p(xᵢ) = yᵢ for
 
 There is a unique degree n polynomial passing through a choice of n + 1 points.
 
+**Examples**
+```
+n = 0, n + 1 = 1
+random point = (7, 4)
+f(x) = a0
+f(7) = 4
+```
+![example1](example-1.svg)
+
+```
+n = 1, n + 1 = 2
+random points = (2, 3), (7, 4)
+f(2) = 3
+f(7) = 4
+
+f(2) = a0 + a1 * x
+f(7) = a0 + a1 * x
+
+a0 + a1 * x = 3
+a0 + a1 * x = 4
+
+a0 + a1 * 2 = 3
+a0 + a1 * 7 = 4
+
+a0 + a1 * 2 = 3
+a0 = 3 - a1 * 2
+
+3 - a1 * 2 + a1 * 7 = 4
+a1 = 1 / 5
+
+f(x) = a0 + a1 * x
+a0 = 3 - 1/5 * 2
+a1 = 1 / 5
+```
+![example1](example-2.svg)
