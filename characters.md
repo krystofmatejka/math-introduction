@@ -11,3 +11,5 @@
 | In | ∈ | 8712 | \&#8712; | "In" or "Element of" |
 | Rightwards Arrow | → | 8594 | \&#8594; | Rightwards Arrow |
 | Gte | ≥ | 8805 | \&#8805; | Greater-Than or Equal To |
+| Sigma | Σ | 931 | \&#931; | Sum; represents a loop |
+| Pi | ∏ | 8719 | \&#8719; | Product |

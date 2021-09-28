@@ -117,3 +117,36 @@ a0 = 3 - 1/5 * 2
 a1 = 1/5
 ```
 ![example1](example-2.svg)
+
+## Loops in math
+
+TD Find a better place for this
+
+**Math expression**
+```
+       n
+f(x) = Σ bar(i) * ( ∏ * foo(i, j) )
+       i=1         j!=i
+```
+
+**Pseudo code**
+```
+function f<T, G>(x) {
+  int i, j
+  T sum = defaultSumValue
+
+  for (i = 1; i <= n; i++) {
+    G product = defaultProductValue
+
+    for (j = 1; j <= n; j++) {
+      if (j != i) {
+        product *= foo(i, j)
+      }
+    }
+
+    sum += bar(i) * product
+  }
+
+  return sum
+}
+```
